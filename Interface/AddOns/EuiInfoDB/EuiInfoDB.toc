@@ -1,0 +1,11 @@
+## Interface: 80100
+## Title: |cffC495DDEUI|r InfoDB
+## Title-zhCN: |cffC495DDEUI|r信息收集
+## Title-zhTW: |cffC495DDEUI|r資訊收集
+## Author: eui.cc
+## X-Category: ElvUI
+## Version: 2.3
+## SavedVariables: playersDB,PlayersDBJSON
+## RequiredDeps: ElvUI
+
+core.lua

@@ -1,0 +1,18 @@
+## Interface: 80100
+## Title: |cffC495DDEUI|rBattle for Azeroth Treasures
+## Title-zhCN: |cffC495DDEUI|r地图标记-BfA宝藏模块
+## Title-zhTW: |cffC495DDEUI|r地圖標記-BfA宝藏模块
+## Notes: Where are the hidden treasures in Battle For Azeroth?
+## Author: Kemayo
+## Version: v5-11
+## DefaultState: enabled
+## X-Category: Map
+## X-eMail: kemayo @ gmail DOT com
+## SavedVariables: HandyNotes_BattleForAzerothTreasuresDB
+## RequiredDeps: HandyNotes
+## X-Revision: ElvUI
+
+handler.lua
+config.lua
+Treasure.lua
+Rares.lua

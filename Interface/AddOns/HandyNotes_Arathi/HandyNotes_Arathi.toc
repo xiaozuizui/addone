@@ -1,0 +1,20 @@
+## Interface: 80100
+## Title: |cffC495DDEUI|rHandyNotes_Arathi
+## Title-zhCN: |cffC495DDEUI|r地图标记-阿拉希高地稀有
+## Title-zhTW: |cffC495DDEUI|r地圖標記-阿拉希高地稀有
+## Version: 0.4.0
+## Notes: Arathi Rares
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## X-Embeds: Ace3
+## SavedVariables: HandyNotesArathiDB
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+localization\enUS.lua
+localization\zhCN.lua
+localization\zhTW.lua
+
+HandyNotes_Arathi.lua

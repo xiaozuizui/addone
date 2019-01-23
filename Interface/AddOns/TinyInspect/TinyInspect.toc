@@ -1,0 +1,24 @@
+## Interface: 80100
+## Title: |cfffe7b2cEUI|rTinyInspect
+## Title-zhCN: |cfffe7b2cEUI|r装备观察显示
+## Title-zhTW: |cfffe7b2cEUI|r裝備觀察顯示
+## Version: 8.0.8
+## Notes: Show ItemLevel For Inspect
+## Notes-zhCN: 装备观察列表
+## Notes-zhTW: 裝備觀察列表
+## Author: M
+## X-Revision: ElvUI
+
+libs\lib.xml
+
+InspectCore.lua
+
+InspectUnit.lua
+InspectUnitStats.lua
+InspectUnitGemAndEnchant.lua
+InspectUnitSpecialization.lua
+
+InspectParty.lua
+InspectRaid.lua
+
+InspectMouse.lua

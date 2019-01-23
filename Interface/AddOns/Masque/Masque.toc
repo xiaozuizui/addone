@@ -1,0 +1,49 @@
+## Interface: 80100
+## Title: |cffC495DDEUI|r|cffFFFFFFMasque|r
+## Title-zhCN: |cffC495DDEUI|r|cffFFFFFF图标美化包|r
+## Title-zhTW: |cffC495DDEUI|r|cffFFFFFF圖示美化包|r
+## Version: 8.0.1
+## Author: StormFX, JJSheets, cadcamzy
+## Notes: A dynamic button skinning engine.
+## Notes-zhCN: 一个动态按钮皮肤插件,EUI专用版。
+## Notes-zhTW: 動態套用按鈕佈景主題的插件,EUI專用版。
+## X-Website: http://www.wowace.com/projects/masque/
+## X-Category: Interface Enhancements
+## X-WoWI-ID: 12097
+## OptionalDeps: Ace3
+## RequiredDeps: ElvUI
+## SavedVariables: MasqueDB
+## X-Revision: ElvUI
+## LoadOnDemand: 1
+
+# Libraries
+Libs\Libs.xml
+
+# Locales
+Locales\Locales.xml
+
+# Add-On
+Masque.lua
+
+# Skins
+Skins\Skins.xml
+
+# Core
+Core\Core.xml
+
+# SkinModule
+skinsModule\Cirque.lua
+SkinsModule\Apathy.lua
+SkinsModule\Caith.lua
+SkinsModule\Entropy.lua
+SkinsModule\Gears.lua
+SkinsModule\LiteStep.lua
+SkinsModule\Onyx.lua
+SkinsModule\Serenity.lua
+SkinsModule\Shadow.lua
+SkinsModule\Sleek.lua
+SkinsModule\HelloKitty.lua
+SkinsModule\Vista.lua
+SkinsModule\Goldpaw.lua
+SkinsModule\FlatSquares.lua
+SkinsModule\CleanUI.lua

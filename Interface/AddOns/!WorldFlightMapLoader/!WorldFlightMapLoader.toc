@@ -1,0 +1,8 @@
+## Interface: 80100
+## Title: |cffC495DDEUI|rWorldFlightMap_Loader
+## Title-zhCN: |cffC495DDEUI|r世界飞行地图载入器
+## Title-zhTW: |cffC495DDEUI|r世界飛行地圖載入器
+## Notes: Required to load WorldFlightMap before other flight map addons
+## Author: Semlar
+## Version: 8.0.0.3
+## Dependencies: Blizzard_FlightMap, WorldFlightMap

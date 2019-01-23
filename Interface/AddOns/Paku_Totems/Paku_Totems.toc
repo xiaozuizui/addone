@@ -1,0 +1,23 @@
+## Interface: 80100
+## Title: Pa'ku Totems
+## Title-zhCN: |cffC495DDEUI|r帕库图腾插件
+## Title-zhTW: |cffC495DDEUI|r帕庫圖騰插件
+## Author: jaxdahl
+## Version: 1.32
+## Notes: Show Pa'ku totem positions on the map and destinations in the tooltip on mouseover.
+
+..\libs\LibStub\LibStub.lua
+..\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+
+..\libs\HereBeDragons\HereBeDragons-2.0.lua
+..\libs\HereBeDragons\HereBeDragons-Pins-2.0.lua
+
+..\libs\AceAddon-3.0\AceAddon-3.0.xml
+..\libs\AceEvent-3.0\AceEvent-3.0.xml
+..\libs\AceLocale-3.0\AceLocale-3.0.xml
+
+Locales\enUS.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
+
+Paku_Totems.lua

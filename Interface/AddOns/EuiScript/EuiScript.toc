@@ -1,0 +1,26 @@
+## Interface: 80100
+## Title: |cfffe7b2cEUI|r Script
+## Title-zhCN: |cfffe7b2cEUI|r增强功能
+## Title-zhTW: |cfffe7b2cEUI|r增強功能
+## Author: eui.cc
+## X-Category: ElvUI
+## Version: 20190118A
+## SavedVariables: ACHIEVEMENTSEARCH_DB, TalentProfilesGlobalDB
+## SavedVariablesPerCharacter: TalentProfilesDB
+## RequiredDeps: ElvUI
+
+init.lua
+..\libs\LibStub\LibStub.lua
+..\libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+..\libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+..\libs\LibEvent.lua
+..\libs\LibSchedule.lua
+..\libs\LibItemInfo.lua
+
+Media.lua
+overlay.xml
+module\load_module.xml
+
+Bindings.xml
+
+changelog.lua
