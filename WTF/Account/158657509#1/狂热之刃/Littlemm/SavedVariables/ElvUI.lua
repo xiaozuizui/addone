@@ -1,0 +1,13 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/RELOAD", -- [1]
+		"/tmw", -- [2]
+		"/reload", -- [3]
+		"/weakauras", -- [4]
+		"/cw 丶鸡贰夹蛋丶-安苏 谢谢", -- [5]
+		"/p 要不好意思啊", -- [6]
+	},
+	["ChatHistoryLog"] = {
+	},
+}

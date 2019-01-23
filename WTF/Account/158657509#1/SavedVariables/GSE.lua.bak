@@ -1,0 +1,775 @@
+
+GSEOptions = {
+	["HideLoginMessage"] = false,
+	["use2"] = false,
+	["STANDARDFUNCS"] = "|cff55ddcc",
+	["showGSEUsers"] = false,
+	["UnfoundSpellIDs"] = {
+	},
+	["COMMENT"] = "|cff55cc55",
+	["use14"] = false,
+	["DefaultImportAction"] = "MERGE",
+	["EQUALS"] = "|cffccddee",
+	["use11"] = false,
+	["sendDebugOutputToChatWindow"] = false,
+	["CreateGlobalButtons"] = false,
+	["Update2305"] = true,
+	["debug"] = false,
+	["UseWLMExportFormat"] = true,
+	["use6"] = false,
+	["CommandColour"] = "|cFF00FF00",
+	["autoCreateMacroStubsClass"] = true,
+	["UNKNOWN"] = "|cffff6666",
+	["Updated801"] = true,
+	["DisabledSequences"] = {
+	},
+	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
+	["DebugPrintModConditionsOnKeyPress"] = false,
+	["AddInPacks"] = {
+		["Samples"] = {
+			["Name"] = "Samples",
+			["Version"] = "2402",
+			["SequenceNames"] = {
+				"Assorted Sample Macros", -- [1]
+			},
+		},
+	},
+	["sendDebugOutputToDebugOutput"] = false,
+	["hideSoundErrors"] = false,
+	["ErroneousSpellID"] = {
+	},
+	["showGSEoocqueue"] = true,
+	["STRING"] = "|cff888888",
+	["requireTarget"] = false,
+	["overflowPersonalMacros"] = false,
+	["hideUIErrors"] = false,
+	["TitleColour"] = "|cFFFF0000",
+	["useTranslator"] = false,
+	["initialised"] = true,
+	["INDENT"] = "|cffccaa88",
+	["DebugModules"] = {
+		["Translator"] = false,
+		["GUI"] = false,
+		["Storage"] = false,
+		["Editor"] = false,
+		["Versions"] = false,
+		["API"] = false,
+		["Viewer"] = false,
+		["Transmission"] = false,
+	},
+	["resetOOC"] = true,
+	["MacroResetModifiers"] = {
+		["Alt"] = false,
+		["LeftControl"] = false,
+		["LeftButton"] = false,
+		["LeftAlt"] = false,
+		["RighttButton"] = false,
+		["RightAlt"] = false,
+		["RightShift"] = false,
+		["Button5"] = false,
+		["AnyMod"] = false,
+		["RightControl"] = false,
+		["Control"] = false,
+		["Shift"] = false,
+		["LeftShift"] = false,
+		["Button4"] = false,
+		["MiddleButton"] = false,
+	},
+	["filterList"] = {
+		["Spec"] = true,
+		["Class"] = true,
+		["Global"] = true,
+		["All"] = false,
+	},
+	["EmphasisColour"] = "|cFFFFFF00",
+	["UseVerboseExportFormat"] = false,
+	["WOWSHORTCUTS"] = "|cffddaaff",
+	["RealtimeParse"] = false,
+	["deleteOrphansOnLogout"] = false,
+	["ActiveSequenceVersions"] = {
+	},
+	["UnfoundSpells"] = {
+		["null"] = true,
+	},
+	["AuthorColour"] = "|cFF00D1FF",
+	["clearUIErrors"] = false,
+	["autoCreateMacroStubsGlobal"] = false,
+	["NUMBER"] = "|cffffaa00",
+	["use12"] = false,
+	["use13"] = false,
+	["NormalColour"] = "|cFFFFFFFF",
+	["CONCAT"] = "|cffcc7777",
+	["saveAllMacrosLocal"] = true,
+	["setDefaultIconQuestionMark"] = true,
+	["KEYWORD"] = "|cff88bbdd",
+	["use1"] = false,
+}
+GSELibrary = {
+	[0] = {
+	},
+	[3] = {
+		["SAM_BMAOE"] = {
+			["Talents"] = "3123311",
+			["Mythic"] = 2,
+			["MacroVersions"] = {
+				{
+					"/cast 34026", -- [1]
+					"/castsequence 2643, 34026, 2643, 19577", -- [2]
+					"/cast 34026", -- [3]
+					"/cast 131894", -- [4]
+					"/cast 217200", -- [5]
+					"/cast 19574", -- [6]
+					"/cast 34026", -- [7]
+					"/cast 120679", -- [8]
+					"/cast 193530", -- [9]
+					"/cast 34026", -- [10]
+					"/castsequence 2643, 34026, 2643, 19577", -- [11]
+					"/cast 217200", -- [12]
+					"/use 13", -- [13]
+					"/use 14", -- [14]
+					"/cast 34026", -- [15]
+					"/cast 120679", -- [16]
+					"/cast 193530", -- [17]
+					"/cast 131894", -- [18]
+					"/cast 19577", -- [19]
+					"/cast 19574", -- [20]
+					["LoopLimit"] = "2",
+					["PostMacro"] = {
+					},
+					["Head"] = false,
+					["Neck"] = false,
+					["Belt"] = false,
+					["Ring1"] = false,
+					["Trinket2"] = false,
+					["Ring2"] = false,
+					["StepFunction"] = "Sequential",
+					["Trinket1"] = false,
+					["KeyPress"] = {
+						"/cast [nopet,nodead] 883", -- [1]
+						"/cast [combat,pet:Spirit Beast,@player] 90361", -- [2]
+						"/petautocaston 2649", -- [3]
+						"/cast [target=focus, exists, nodead],[target=pet, exists, nodead] Misdirection\"", -- [4]
+						"/cast [combat,pet,@player] Roar of Sacrifice", -- [5]
+					},
+					["PreMacro"] = {
+						"/cast 193530", -- [1]
+						"/cast 131894", -- [2]
+						"/cast 120679", -- [3]
+						"/cast 19577", -- [4]
+					},
+					["KeyRelease"] = {
+						"/cast 131894", -- [1]
+					},
+				}, -- [1]
+				{
+					"/cast 34026", -- [1]
+					"/castsequence 2643, 34026, 2643, 19577", -- [2]
+					"/cast 34026", -- [3]
+					"/cast 131894", -- [4]
+					"/cast 217200", -- [5]
+					"/cast 19574", -- [6]
+					"/cast 34026", -- [7]
+					"/cast 120679", -- [8]
+					"/cast 193530", -- [9]
+					"/cast 34026", -- [10]
+					"/castsequence 2643, 34026, 2643, 19577", -- [11]
+					"/cast 217200", -- [12]
+					"/use 13", -- [13]
+					"/use 14", -- [14]
+					"/cast 34026", -- [15]
+					"/cast 120679", -- [16]
+					"/cast 193530", -- [17]
+					"/cast 131894", -- [18]
+					"/cast 19574", -- [19]
+					["LoopLimit"] = "2",
+					["PostMacro"] = {
+					},
+					["Head"] = false,
+					["Neck"] = false,
+					["Belt"] = false,
+					["Ring1"] = false,
+					["Ring2"] = false,
+					["KeyRelease"] = {
+						"/cast 131894", -- [1]
+					},
+					["StepFunction"] = "Sequential",
+					["Trinket1"] = false,
+					["KeyPress"] = {
+						"/cast [nopet,nodead] Call Pet 1t", -- [1]
+						"/cast [combat,pet:Spirit Beast,@player] 90361", -- [2]
+						"/petautocaston 2649", -- [3]
+						"/cast [target=focus, exists, nodead],[target=pet, exists, nodead] Misdirection\"", -- [4]
+						"/cast [combat,pet,@player] Roar of Sacrifice", -- [5]
+					},
+					["PreMacro"] = {
+						"/cast 193530", -- [1]
+						"/cast 131894", -- [2]
+						"/cast 120679", -- [3]
+					},
+					["Trinket2"] = false,
+				}, -- [2]
+				{
+					"/cast 5116", -- [1]
+					"/cast 34026", -- [2]
+					"/castsequence 2643, 34026, 2643, 19577", -- [3]
+					"/cast 34026", -- [4]
+					"/cast 131894", -- [5]
+					"/cast 217200", -- [6]
+					"/cast 19574", -- [7]
+					"/cast 34026", -- [8]
+					"/cast 120679", -- [9]
+					"/cast 193530", -- [10]
+					"/cast 5116", -- [11]
+					"/cast 34026", -- [12]
+					"/castsequence 2643, 34026, 2643, 19577", -- [13]
+					"/cast 217200", -- [14]
+					"/use 13", -- [15]
+					"/use 14", -- [16]
+					"/cast 34026", -- [17]
+					"/cast 120679", -- [18]
+					"/cast 193530", -- [19]
+					"/cast 131894", -- [20]
+					"/cast 19577", -- [21]
+					"/cast 19574", -- [22]
+					["LoopLimit"] = "2",
+					["PostMacro"] = {
+					},
+					["Head"] = false,
+					["Neck"] = false,
+					["Belt"] = false,
+					["Ring1"] = false,
+					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+						"/cast 131894", -- [1]
+					},
+					["Trinket2"] = false,
+					["Trinket1"] = false,
+					["KeyPress"] = {
+						"/cast [nopet,nodead] Call Pet 1t", -- [1]
+						"/cast [combat,pet:Spirit Beast,@player] 90361", -- [2]
+						"/petautocaston 2649", -- [3]
+						"/cast [target=focus, exists, nodead],[target=pet, exists, nodead] Misdirection\"", -- [4]
+						"/cast [combat,pet,@player] Roar of Sacrifice", -- [5]
+					},
+					["PreMacro"] = {
+						"/cast 193530", -- [1]
+						"/cast 131894", -- [2]
+						"/cast 120679", -- [3]
+						"/cast 19577", -- [4]
+					},
+					["Ring2"] = false,
+				}, -- [3]
+			},
+			["Heroic"] = 2,
+			["ManualIntervention"] = false,
+			["Dungeon"] = 2,
+			["Party"] = 2,
+			["Help"] = "Beta AoE",
+			["PVP"] = 3,
+			["SpecID"] = 253,
+			["Raid"] = 2,
+			["Default"] = 1,
+			["Author"] = "Sir Ewing",
+		},
+		["SAM_SURVIVAL"] = {
+			["Talents"] = "1211232",
+			["Default"] = 1,
+			["SpecID"] = 255,
+			["MacroVersions"] = {
+				{
+					"/cast 269751", -- [1]
+					"/cast 186270", -- [2]
+					"/cast [@player, nochanneling] 187698", -- [3]
+					"/cast [@player, nochanneling] 187650", -- [4]
+					"/cast 186289", -- [5]
+					"/cast [nochanneling] 186270", -- [6]
+					"/cast [nochanneling] Carve", -- [7]
+					"/cast [nochanneling] 259489", -- [8]
+					"/cast [nochanneling] 266779", -- [9]
+					"/cast 259491", -- [10]
+					"/cast 270335", -- [11]
+					"/cast [combat] Fury of the Eagle", -- [12]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/startattack", -- [1]
+					},
+				}, -- [1]
+			},
+			["Author"] = "TimothyLuke",
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+		["SAM_BMST"] = {
+			["Talents"] = "3123311",
+			["Author"] = "Sir Ewing",
+			["Heroic"] = 2,
+			["MacroVersions"] = {
+				{
+					"/cast 34026", -- [1]
+					"/castsequence 193455, 34026, 193455, 19577", -- [2]
+					"/cast 34026", -- [3]
+					"/cast 131894", -- [4]
+					"/cast 217200", -- [5]
+					"/cast 34026", -- [6]
+					"/cast 19574", -- [7]
+					"/cast 120679", -- [8]
+					"/cast 193530", -- [9]
+					"/cast 34026", -- [10]
+					"/castsequence 193455, 34026, 193455, 19577", -- [11]
+					"/cast 217200", -- [12]
+					"/use 13", -- [13]
+					"/use 14", -- [14]
+					"/cast 34026", -- [15]
+					"/cast 120679", -- [16]
+					"/cast 193530", -- [17]
+					"/cast 131894", -- [18]
+					"/cast 19577", -- [19]
+					"/cast 19574", -- [20]
+					["LoopLimit"] = "2",
+					["Trinket1"] = false,
+					["Head"] = false,
+					["Neck"] = false,
+					["Belt"] = false,
+					["Ring1"] = false,
+					["Ring2"] = false,
+					["KeyRelease"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["PostMacro"] = {
+					},
+					["Trinket2"] = false,
+					["PreMacro"] = {
+						"/cast 193530", -- [1]
+						"/cast 131894", -- [2]
+						"/cast 120679", -- [3]
+						"/cast 19577", -- [4]
+					},
+					["KeyPress"] = {
+						"/cast [nopet,nodead] 883; [@pet,dead,nochanneling] 136", -- [1]
+						"/cast [combat,pet:Spirit Beast,@player] 90361", -- [2]
+						"/petautocaston 2649", -- [3]
+						"/cast [target=focus, exists, nodead],[target=pet, exists, nodead] Misdirection\"", -- [4]
+						"/cast [combat,pet,@player] Roar of Sacrifice", -- [5]
+					},
+				}, -- [1]
+				{
+					"/cast 34026", -- [1]
+					"/castsequence 193455, 34026, 193455", -- [2]
+					"/cast 34026", -- [3]
+					"/cast 131894", -- [4]
+					"/cast 217200", -- [5]
+					"/cast 19574", -- [6]
+					"/cast 34026", -- [7]
+					"/cast 120679", -- [8]
+					"/cast 193530", -- [9]
+					"/cast 34026", -- [10]
+					"/castsequence 193455, 34026, 193455", -- [11]
+					"/cast 217200", -- [12]
+					"/use 13", -- [13]
+					"/use 14", -- [14]
+					"/cast 34026", -- [15]
+					"/cast 120679", -- [16]
+					"/cast 193530", -- [17]
+					"/cast 131894", -- [18]
+					"/cast 19574", -- [19]
+					["LoopLimit"] = "2",
+					["Trinket1"] = false,
+					["Head"] = false,
+					["Neck"] = false,
+					["Belt"] = false,
+					["Ring1"] = false,
+					["KeyPress"] = {
+						"/cast [nopet,nodead] 883; [@pet,dead,nochanneling] 136", -- [1]
+						"/cast [combat,pet:Spirit Beast,@player] 90361", -- [2]
+						"/petautocaston 2649", -- [3]
+						"/cast [target=focus, exists, nodead],[target=pet, exists, nodead] Misdirection\"", -- [4]
+						"/cast [combat,pet,@player] Roar of Sacrifice", -- [5]
+					},
+					["Ring2"] = false,
+					["StepFunction"] = "Sequential",
+					["PostMacro"] = {
+					},
+					["Trinket2"] = false,
+					["PreMacro"] = {
+						"/cast 193530", -- [1]
+						"/cast 131894", -- [2]
+						"/cast 120679", -- [3]
+					},
+					["KeyRelease"] = {
+					},
+				}, -- [2]
+				{
+					"/cast 5116", -- [1]
+					"/cast 34026", -- [2]
+					"/castsequence 193455, 34026, 193455, 19577", -- [3]
+					"/cast 34026", -- [4]
+					"/cast 131894", -- [5]
+					"/cast 217200", -- [6]
+					"/cast 19574", -- [7]
+					"/cast 34026", -- [8]
+					"/cast 120679", -- [9]
+					"/cast 193530", -- [10]
+					"/cast 5116", -- [11]
+					"/cast 34026", -- [12]
+					"/castsequence 193455, 34026, 193455, 19577", -- [13]
+					"/cast 217200", -- [14]
+					"/use 13", -- [15]
+					"/use 14", -- [16]
+					"/cast 34026", -- [17]
+					"/cast 120679", -- [18]
+					"/cast 193530", -- [19]
+					"/cast 131894", -- [20]
+					"/cast 19577", -- [21]
+					"/cast 19574", -- [22]
+					["LoopLimit"] = "2",
+					["Trinket1"] = false,
+					["Head"] = false,
+					["Neck"] = false,
+					["Belt"] = false,
+					["Ring1"] = false,
+					["KeyPress"] = {
+						"/cast [nopet,nodead] 883; [@pet,dead,nochanneling] 136", -- [1]
+						"/cast [combat,pet:Spirit Beast,@player] 90361", -- [2]
+						"/petautocaston 2649", -- [3]
+						"/cast [target=focus, exists, nodead],[target=pet, exists, nodead] Misdirection\"", -- [4]
+						"/cast [combat,pet,@player] Roar of Sacrifice", -- [5]
+					},
+					["Ring2"] = false,
+					["StepFunction"] = "Sequential",
+					["PostMacro"] = {
+					},
+					["Trinket2"] = false,
+					["PreMacro"] = {
+						"/cast 193530", -- [1]
+						"/cast 131894", -- [2]
+						"/cast 120679", -- [3]
+						"/cast 19577", -- [4]
+					},
+					["KeyRelease"] = {
+					},
+				}, -- [3]
+			},
+			["Raid"] = 2,
+			["ManualIntervention"] = false,
+			["Dungeon"] = 2,
+			["Party"] = 2,
+			["Help"] = "Beta single target",
+			["SpecID"] = 253,
+			["Default"] = 1,
+			["Arena"] = 3,
+			["Mythic"] = 2,
+			["PVP"] = 3,
+		},
+		["SAM_MM"] = {
+			["Talents"] = "3,3,2,3,2,1,",
+			["Default"] = 1,
+			["SpecID"] = 254,
+			["MacroVersions"] = {
+				{
+					"/cast [nochanneling] 19434", -- [1]
+					"/cast [nochanneling] 131894", -- [2]
+					"/cast [nochanneling] 185358", -- [3]
+					"/cast [nochanneling] 212431", -- [4]
+					"/cast [nochanneling] 56641", -- [5]
+					"/cast [nochanneling] 257044", -- [6]
+					"/cast [nochanneling] 257620", -- [7]
+					"/cast [nochanneling] 186387", -- [8]
+					["LoopLimit"] = 2,
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+						"/startattack", -- [2]
+					},
+					["PreMacro"] = {
+						"/cast [nochanneling] 193526", -- [1]
+						"/cast [nochanneling] 131894", -- [2]
+					},
+					["KeyRelease"] = {
+					},
+				}, -- [1]
+			},
+			["Author"] = "Webber",
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+	},
+	[8] = {
+	},
+	[10] = {
+		["SAM_WWAOE"] = {
+			["Talents"] = "2331312",
+			["Default"] = 1,
+			["MacroVersions"] = {
+				{
+					"/cast [nochanneling] 152175", -- [1]
+					"/castsequence [nochanneling] 113656, 107428", -- [2]
+					"/cast [nochanneling] 113656; [nochanneling,talent:7/3] 113656", -- [3]
+					"/castsequence [nochanneling] 100780, 100784", -- [4]
+					"/castsequence [nochanneling] 100784, 100780", -- [5]
+					"/cast [nochanneling] 100780", -- [6]
+					"/cast [nochanneling] Rushing Jade Wind", -- [7]
+					"/cast [nochanneling] Chi Burst", -- [8]
+					"/cast [nochanneling] 113656", -- [9]
+					"/cast [nochanneling] 101546", -- [10]
+					"/cast [nochanneling] 100780", -- [11]
+					"/cast [nochanneling] 100784", -- [12]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Priority",
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [nochanneling] 115080", -- [1]
+						"/cast [nochanneling] Fists of Fur", -- [2]
+					},
+				}, -- [1]
+			},
+			["Author"] = "Webber",
+			["SpecID"] = 269,
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+		["SAM_BREW"] = {
+			["Talents"] = "1121213",
+			["Default"] = 1,
+			["Author"] = "TimothyLuke",
+			["SpecID"] = 268,
+			["MacroVersions"] = {
+				{
+					"/cast 205523", -- [1]
+					"/cast 119381", -- [2]
+					"/cast 205523", -- [3]
+					"/cast 115181", -- [4]
+					"/cast 205523", -- [5]
+					"/cast 121253", -- [6]
+					"/cast 116705", -- [7]
+					"/cast 100780", -- [8]
+					"/cast 205523", -- [9]
+					["PostMacro"] = {
+					},
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+					},
+					["KeyRelease"] = {
+					},
+					["PreMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+				}, -- [1]
+			},
+			["ManualIntervention"] = false,
+		},
+		["SAM_WWST"] = {
+			["Talents"] = "2331312",
+			["Default"] = 1,
+			["MacroVersions"] = {
+				{
+					"/cast [nochanneling] 113656", -- [1]
+					"/cast [nochanneling] 152175", -- [2]
+					"/castsequence [nochanneling] 100780, 100784", -- [3]
+					"/castsequence [nochanneling] 100784, 100780", -- [4]
+					"/cast [nochanneling] 115098", -- [5]
+					"/cast [nochanneling] 107428", -- [6]
+					"/cast [nochanneling] 100780", -- [7]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Priority",
+					["KeyPress"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [nochanneling] 115080", -- [1]
+						"/cast [nochanneling] 113656", -- [2]
+					},
+				}, -- [1]
+			},
+			["Author"] = "Webber",
+			["SpecID"] = 269,
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+	},
+	[12] = {
+	},
+	[9] = {
+	},
+	[5] = {
+		["SAM_SHADOW"] = {
+			["Help"] = "",
+			["Talents"] = "1211221",
+			["Default"] = 1,
+			["SpecID"] = 258,
+			["MacroVersions"] = {
+				{
+					"/castsequence [nochanneling] reset=target  34914, 15407, null", -- [1]
+					"/cast [nochanneling] 8092", -- [2]
+					"/castsequence [combat, nochanneling] 228260, 34433", -- [3]
+					"/cast [nochanneling] 228260", -- [4]
+					"/cast [nochanneling] 32379", -- [5]
+					"/cast [nochanneling] 15407", -- [6]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Priority",
+					["KeyPress"] = {
+						"/cast [form:0] 232698", -- [1]
+						"/targetenemy [noharm][dead]", -- [2]
+						"/castsequence [mod:alt] 589, 34914", -- [3]
+					},
+					["PreMacro"] = {
+					},
+					["KeyRelease"] = {
+						"/cast [combat,nochanneling] 586", -- [1]
+					},
+				}, -- [1]
+			},
+			["Author"] = "TimothyLuke",
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+		["SAM_DISC"] = {
+			["Talents"] = "1231212",
+			["Default"] = 1,
+			["SpecID"] = 256,
+			["MacroVersions"] = {
+				{
+					"/cast [@player, nocombat, nochanneling] 17", -- [1]
+					"/cast [combat, nochanneling] 34433", -- [2]
+					"/cast [combat, nochanneling][@focus, exists, noharm, nodead][@player] 17", -- [3]
+					"/castsequence [nochanneling] reset=target  589, 47540, 47540", -- [4]
+					"/cast [combat, nochanneling] 585", -- [5]
+					["KeyRelease"] = {
+					},
+					["Trinket2"] = true,
+					["Trinket1"] = true,
+					["StepFunction"] = "Priority",
+					["KeyPress"] = {
+						"/target [@focustarget, harm, nodead]", -- [1]
+						"/targetenemy [noharm, dead]", -- [2]
+						"/startattack", -- [3]
+					},
+					["PostMacro"] = {
+					},
+					["PreMacro"] = {
+					},
+					["Combat"] = true,
+				}, -- [1]
+			},
+			["Author"] = "TimothyLuke",
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+	},
+	[6] = {
+		["SAM_FROST"] = {
+			["Talents"] = "3213131",
+			["Default"] = 1,
+			["Author"] = "John Metz",
+			["SpecID"] = 251,
+			["MacroVersions"] = {
+				{
+					"/cast [combat] 51271", -- [1]
+					"/cast [combat] 196770", -- [2]
+					"/cast [combat] 207256", -- [3]
+					"/castsequence  reset=combat  49020, 49143", -- [4]
+					"/cast 47568", -- [5]
+					"/cast 194913", -- [6]
+					["LoopLimit"] = 12,
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+					},
+					["PreMacro"] = {
+						"/cast 49143", -- [1]
+					},
+					["KeyPress"] = {
+						"/cast [mod:alt] 49184", -- [1]
+						"/cast [mod:shift] 45524", -- [2]
+					},
+				}, -- [1]
+			},
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+		["SAM_BLOOD"] = {
+			["Talents"] = "3112132",
+			["Default"] = 1,
+			["Author"] = "John Metz",
+			["SpecID"] = 250,
+			["MacroVersions"] = {
+				{
+					"/cast [@player, no channeling] 43265", -- [1]
+					"/castsequence [no channeling] 195182, 206930, 50842, 206930", -- [2]
+					"/cast [no channeling: Blooddrinker] Consumption", -- [3]
+					"/cast [no channeling] 206931", -- [4]
+					"/cast [combat, nochanneling] 55233", -- [5]
+					"/cast [combat][no channeling: blooddrinker] 49028", -- [6]
+					["LoopLimit"] = "3",
+					["PostMacro"] = {
+					},
+					["Trinket2"] = true,
+					["KeyRelease"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+					},
+					["KeyPress"] = {
+						"/cast [mod:alt] 49998", -- [1]
+					},
+					["PreMacro"] = {
+						"/cast [no channeling] 49998", -- [1]
+					},
+					["StepFunction"] = "Sequential",
+				}, -- [1]
+			},
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+		["SAM_UH"] = {
+			["Talents"] = "3211111",
+			["Default"] = 1,
+			["MacroVersions"] = {
+				{
+					"/cast 47541", -- [1]
+					"/cast [nopet,combat] 46584; 63560", -- [2]
+					"/cast [@player] 43265", -- [3]
+					"/cast 115989", -- [4]
+					"/castsequence 85948, 55090", -- [5]
+					"/cast 130736", -- [6]
+					"/cast [combat] Summon Gargoyle", -- [7]
+					["LoopLimit"] = "10",
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyPress"] = {
+						"/use [mod:shift] Apocalypse", -- [1]
+						"/cast [mod:alt] 47541", -- [2]
+					},
+					["PreMacro"] = {
+						"/cast 77575", -- [1]
+					},
+					["KeyRelease"] = {
+						"/targetenemy [noharm][dead]", -- [1]
+					},
+				}, -- [1]
+			},
+			["Author"] = "John Metz",
+			["SpecID"] = 252,
+			["Icon"] = "",
+			["ManualIntervention"] = false,
+		},
+	},
+}

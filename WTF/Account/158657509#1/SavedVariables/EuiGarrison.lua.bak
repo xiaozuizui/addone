@@ -1,0 +1,409 @@
+
+MasterPlanAG = {
+	["伊莫塔尔"] = {
+		["小嘴嘴"] = {
+			["faction"] = "Horde",
+			["class"] = "DEMONHUNTER",
+		},
+	},
+	["伊森利恩"] = {
+		["Littlemm"] = {
+			["class"] = "PRIEST",
+			["summary"] = {
+				["ti1"] = 118531,
+				["ti3"] = 127855,
+				["tt3"] = true,
+				["tt1"] = true,
+			},
+			["faction"] = "Horde",
+		},
+	},
+	["狂热之刃"] = {
+		["Littlemm"] = {
+			["class"] = "PRIEST",
+			["summary"] = {
+				["tt3"] = true,
+				["ti3"] = 127855,
+			},
+			["faction"] = "Horde",
+		},
+	},
+}
+SV_GarrisonMissionManager = {
+}
+IPMDB = {
+	["enableGarrisonMissions"] = true,
+	["ignores"] = {
+	},
+	["profiles"] = {
+		["Littlemm-伊森利恩"] = {
+			{
+				["description"] = "",
+				["cost"] = 40,
+				["isZoneSupport"] = false,
+				["locPrefix"] = "GarrMissionLocation-Ashenvale",
+				["followers"] = {
+					"0x0000000005528CEB", -- [1]
+					"0x0000000005528CF1", -- [2]
+					"0x00000000061A83C1", -- [3]
+				},
+				["inProgress"] = true,
+				["overmaxRewards"] = {
+					{
+						["title"] = "货币奖励",
+						["quantity"] = 200,
+						["icon"] = 2065624,
+						["currencyID"] = 1553,
+					}, -- [1]
+				},
+				["hasBonusEffect"] = true,
+				["missionEndTime"] = 1547675558,
+				["isMaxLevel"] = true,
+				["name"] = "守护遗迹",
+				["canStart"] = false,
+				["typeAtlas"] = "BfAMission-Icon-Normal",
+				["successChance"] = 192,
+				["followerTypeID"] = 22,
+				["offeredGarrMissionTextureID"] = 0,
+				["durationSeconds"] = 64800,
+				["completed"] = false,
+				["missionID"] = 1954,
+				["duration"] = "18小时",
+				["offerTimeRemaining"] = "0秒",
+				["charText"] = "|cffffffffLittlemm|r-伊森利恩",
+				["timeLeft"] = "10小时19分钟",
+				["iLevel"] = 800,
+				["mapPosY"] = 0,
+				["type"] = "",
+				["followerInfo"] = {
+					["0x00000000061A83C1"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 22,
+						["iLevel"] = 800,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-Horde",
+						["isTroop"] = true,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 79882,
+							}, -- [1]
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 79883,
+							}, -- [2]
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 79885,
+							}, -- [3]
+						},
+						["displayScale"] = 1.20000004768372,
+						["status"] = "正在执行任务",
+						["level"] = 120,
+						["quality"] = 2,
+						["portraitIconID"] = 2102752,
+						["isFavorite"] = false,
+						["abilities"] = {
+							1084, -- [1]
+							1139, -- [2]
+						},
+						["maxDurability"] = 2,
+						["durability"] = 1,
+						["xp"] = 0,
+						["className"] = "部落部队",
+						["classSpec"] = 194,
+						["isMaxLevel"] = true,
+						["name"] = "地精工兵",
+						["followerID"] = "0x00000000061A83C1",
+						["height"] = 1.10000002384186,
+						["levelXP"] = 1500,
+						["isCollected"] = true,
+						["garrFollowerID"] = 1071,
+					},
+					["0x0000000005528CF1"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 22,
+						["iLevel"] = 800,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-Hunter-Marksmanship",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 85790,
+							}, -- [1]
+						},
+						["displayScale"] = 1.10000002384186,
+						["status"] = "正在执行任务",
+						["level"] = 120,
+						["quality"] = 4,
+						["portraitIconID"] = 2026473,
+						["isFavorite"] = false,
+						["abilities"] = {
+							1043, -- [1]
+							1088, -- [2]
+							1089, -- [3]
+							1100, -- [4]
+						},
+						["xp"] = 6710,
+						["className"] = "暗影猎手",
+						["classSpec"] = 186,
+						["isMaxLevel"] = true,
+						["name"] = "暗影猎手塔金",
+						["followerID"] = "0x0000000005528CF1",
+						["height"] = 1.25,
+						["levelXP"] = 30000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 1072,
+					},
+					["0x0000000005528CEB"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 22,
+						["iLevel"] = 800,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-Technician",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 67624,
+							}, -- [1]
+						},
+						["displayScale"] = 1.10000002384186,
+						["status"] = "正在执行任务",
+						["level"] = 120,
+						["quality"] = 4,
+						["portraitIconID"] = 2395693,
+						["isFavorite"] = false,
+						["abilities"] = {
+							1042, -- [1]
+							1099, -- [2]
+							1100, -- [3]
+							1101, -- [4]
+						},
+						["xp"] = 4195,
+						["className"] = "工程师",
+						["classSpec"] = 183,
+						["isMaxLevel"] = true,
+						["name"] = "霍巴特·钩锤",
+						["followerID"] = "0x0000000005528CEB",
+						["height"] = 1.10000002384186,
+						["levelXP"] = 30000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 1068,
+					},
+				},
+				["timeLeftSeconds"] = 37188,
+				["overmaxSucceeded"] = false,
+				["basecost"] = 40,
+				["level"] = 120,
+				["numFollowers"] = 3,
+				["requiredSuccessChance"] = 0,
+				["areaID"] = 21,
+				["rewards"] = {
+					{
+						["title"] = "货币奖励",
+						["quantity"] = 352,
+						["icon"] = 2065624,
+						["currencyID"] = 1553,
+					}, -- [1]
+				},
+				["costCurrencyTypesID"] = 1560,
+				["location"] = "艾森娜神殿",
+				["isRare"] = false,
+				["mapPosX"] = 0,
+				["requiredChampionCount"] = 1,
+			}, -- [1]
+			{
+				["description"] = "",
+				["cost"] = 40,
+				["isZoneSupport"] = false,
+				["locPrefix"] = "GarrMissionLocation-NorthernBarrens",
+				["followers"] = {
+					"0x0000000005528CED", -- [1]
+					"0x00000000061CDDC0", -- [2]
+					"0x000000000619ED02", -- [3]
+				},
+				["inProgress"] = true,
+				["overmaxRewards"] = {
+					{
+						["title"] = "货币奖励",
+						["quantity"] = 200,
+						["icon"] = 2065624,
+						["currencyID"] = 1553,
+					}, -- [1]
+				},
+				["hasBonusEffect"] = true,
+				["missionEndTime"] = 1547782370,
+				["isMaxLevel"] = true,
+				["name"] = "调查哀嚎洞穴",
+				["canStart"] = false,
+				["typeAtlas"] = "BfAMission-Icon-LongCampaign",
+				["successChance"] = 145,
+				["followerTypeID"] = 22,
+				["offeredGarrMissionTextureID"] = 0,
+				["durationSeconds"] = 144000,
+				["completed"] = false,
+				["missionID"] = 1955,
+				["duration"] = "1天16小时",
+				["offerTimeRemaining"] = "0秒",
+				["charText"] = "|cffffffffLittlemm|r-伊森利恩",
+				["timeLeft"] = "1天16小时",
+				["iLevel"] = 800,
+				["mapPosY"] = 0,
+				["type"] = "",
+				["followerInfo"] = {
+					["0x000000000619ED02"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 22,
+						["iLevel"] = 1,
+						["scale"] = 0.600000023841858,
+						["classAtlas"] = "GarrMission_ClassIcon-Horde",
+						["isTroop"] = true,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1.10000002384186,
+								["showWeapon"] = true,
+								["id"] = 63955,
+							}, -- [1]
+							{
+								["followerPageScale"] = 1.10000002384186,
+								["showWeapon"] = true,
+								["id"] = 87411,
+							}, -- [2]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 120,
+						["quality"] = 1,
+						["portraitIconID"] = 1984911,
+						["isFavorite"] = false,
+						["abilities"] = {
+							1084, -- [1]
+						},
+						["maxDurability"] = 2,
+						["durability"] = 2,
+						["xp"] = 0,
+						["className"] = "部落部队",
+						["classSpec"] = 194,
+						["isMaxLevel"] = true,
+						["name"] = "碎手特派员",
+						["followerID"] = "0x000000000619ED02",
+						["height"] = 1.29999995231628,
+						["levelXP"] = 1000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 1067,
+					},
+					["0x00000000061CDDC0"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 22,
+						["iLevel"] = 1,
+						["scale"] = 0.600000023841858,
+						["classAtlas"] = "GarrMission_ClassIcon-Horde",
+						["isTroop"] = true,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1.10000002384186,
+								["showWeapon"] = true,
+								["id"] = 87410,
+							}, -- [1]
+							{
+								["followerPageScale"] = 0.800000011920929,
+								["showWeapon"] = false,
+								["id"] = 14579,
+							}, -- [2]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 120,
+						["quality"] = 1,
+						["portraitIconID"] = 1984921,
+						["isFavorite"] = false,
+						["abilities"] = {
+							1085, -- [1]
+						},
+						["maxDurability"] = 2,
+						["durability"] = 2,
+						["xp"] = 0,
+						["className"] = "部落部队",
+						["classSpec"] = 194,
+						["isMaxLevel"] = true,
+						["name"] = "牛头人震地者",
+						["followerID"] = "0x00000000061CDDC0",
+						["height"] = 1,
+						["levelXP"] = 1000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 1063,
+					},
+					["0x0000000005528CED"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 22,
+						["iLevel"] = 800,
+						["scale"] = 0.75,
+						["classAtlas"] = "GarrMission_ClassIcon-Hunter-Survival",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 60766,
+							}, -- [1]
+							{
+								["followerPageScale"] = 2,
+								["showWeapon"] = false,
+								["id"] = 71273,
+							}, -- [2]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 120,
+						["quality"] = 4,
+						["portraitIconID"] = 1396666,
+						["isFavorite"] = false,
+						["abilities"] = {
+							1062, -- [1]
+							1093, -- [2]
+							1102, -- [3]
+							1100, -- [4]
+						},
+						["xp"] = 5780,
+						["className"] = "生存猎人",
+						["classSpec"] = 185,
+						["isMaxLevel"] = true,
+						["name"] = "雷克萨",
+						["followerID"] = "0x0000000005528CED",
+						["height"] = 1,
+						["levelXP"] = 30000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 1069,
+					},
+				},
+				["timeLeftSeconds"] = 144000,
+				["overmaxSucceeded"] = false,
+				["basecost"] = 40,
+				["level"] = 120,
+				["numFollowers"] = 3,
+				["requiredSuccessChance"] = 0,
+				["areaID"] = 21,
+				["rewards"] = {
+					{
+						["title"] = "货币奖励",
+						["quantity"] = 464,
+						["icon"] = 2065624,
+						["currencyID"] = 1553,
+					}, -- [1]
+				},
+				["costCurrencyTypesID"] = 1560,
+				["location"] = "哀嚎洞穴",
+				["isRare"] = true,
+				["mapPosX"] = 0,
+				["requiredChampionCount"] = 1,
+			}, -- [2]
+		},
+	},
+}

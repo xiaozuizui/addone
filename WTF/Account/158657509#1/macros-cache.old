@@ -1,0 +1,34 @@
+VER 3 0000000000000010 " 天堂之羽" "642580"
+#showtooltip 天堂之羽
+/cast [@player,nomod] 天堂之羽; [@cursor,mod:alt] 天堂之羽;
+END
+VER 3 000000000000000C "MillHelper" "Ability_Miling"
+/click MillHelperButton
+END
+VER 3 0000000000000012 "r" "135936"
+/target littlemm
+/cast 痛苦压制
+END
+VER 3 000000000000000B "range" "ability_mount_charger"
+/range 5
+END
+VER 3 000000000000000E "内存清理" "135828"
+/run local o,m,c,f,p=0,0,0,format,print for i=1,GetNumAddOns() do if IsAddOnLoaded(i) then m=f('%.2f',GetAddOnMemoryUsage(i)/1024) p(f('%-20s---- %5s',({GetAddOnInfo(i)})[1],m..'mb')) c=c+m+0 end end p('Total: '..c..'mb\n')
+END
+VER 3 000000000000000F "双向驱散（纯净术 驱散魔法）" "136066"
+#showtool 纯净术
+/cast  [help,nodead] 纯净术;[harm,nodead] 驱散魔法;[@player] 纯净术;
+END
+VER 3 000000000000000D "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END
+VER 3 0000000000000011 "自动暗言术" "136207"
+#showtooltip 
+/cast [harm,nodead] 暗言术：痛
+/stopmacro [harm,nodead] 
+/cast [@mouseover,harm,nodead] 暗言术：痛
+/stopmacro [@mouseover,harm,nodead] 
+/targetenemy 
+/cast 暗言术：痛 
+/targetlasttarget
+END

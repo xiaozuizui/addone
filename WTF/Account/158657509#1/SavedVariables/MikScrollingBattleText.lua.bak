@@ -1,0 +1,29 @@
+
+MSBTProfiles_SavedVars = {
+	["profiles"] = {
+		["Default"] = {
+			["events"] = {
+				["OUTGOING_SPELL_DOT"] = {
+					["disabled"] = true,
+				},
+				["OUTGOING_SPELL_DAMAGE"] = {
+					["disabled"] = true,
+				},
+			},
+			["enableBlizzardDamage"] = false,
+			["scrollAreas"] = {
+				["Incoming"] = {
+					["disabled"] = true,
+				},
+			},
+			["enableBlizzardHealing"] = false,
+			["creationVersion"] = "5.7.149",
+		},
+	},
+}
+MSBT_SavedMedia = {
+	["fonts"] = {
+	},
+	["sounds"] = {
+	},
+}

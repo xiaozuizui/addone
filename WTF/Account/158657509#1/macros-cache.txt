@@ -1,0 +1,162 @@
+VER 3 0000000000000010 " 天堂之羽" "642580"
+#showtooltip 天堂之羽
+/cast [@player,nomod] 天堂之羽; [@cursor,mod:alt] 天堂之羽;
+END
+VER 3 0000000000000015 "1" "134400"
+/script GrantLevel("target", 1);
+END
+VER 3 0000000000000014 "1" "INV_Misc_QuestionMark"
+#showtooltip
+/cast  [@mouseover,exists,harm]沉默
+/cast 沉默
+/say  3333333333333333333
+END
+VER 3 0000000000000013 "1" "134400"
+/click WorldStateScoreFrameLeaveButton    
+/click StaticPopup1Button2
+/click HelpFrameCharacterStuckStuck
+/CAMP       小退加离开宏
+END
+VER 3 0000000000000016 "11" "134400"
+/i ╭──╮╭╮╭╮╭──╮╭──╮ 
+│╭╮││││││╭─╯│╭─╯ 
+│╰╯╯│││││╰─╮│╰─╮ 
+│╭╮╮│││││╭─╯│╭─╯ 
+│╰╯││╰╯│││　　││　
+END
+VER 3 0000000000000017 "22" "136214"
+/施放 摧心魔
+/use 灼光之瓶
+END
+VER 3 000000000000000C "MillHelper" "Ability_Miling"
+/click MillHelperButton
+END
+VER 3 0000000000000012 "r" "135936"
+/target littlemm
+/cast 痛苦压制
+END
+VER 3 000000000000000B "range" "ability_mount_charger"
+/range 5
+END
+VER 3 0000000000000018 "。。" "INV_Misc_QuestionMark"
+#showtooltip 真言术：盾
+/cast [help][target=mouseover,nodead,exists] 真言术：盾; [target=targettarget, help] 真言术：盾; [target=player] 真言术：盾
+/script UIErrorsFrame:Clear()
+END
+VER 3 0000000000000019 "之怒" "INV_Misc_QuestionMark"
+#showtooltip 圣光之怒(神器)
+/use 生命共鸣器
+/施放 圣光之怒(神器)
+END
+VER 3 000000000000000E "内存清理" "135828"
+/run local o,m,c,f,p=0,0,0,format,print for i=1,GetNumAddOns() do if IsAddOnLoaded(i) then m=f('%.2f',GetAddOnMemoryUsage(i)/1024) p(f('%-20s---- %5s',({GetAddOnInfo(i)})[1],m..'mb')) c=c+m+0 end end p('Total: '..c..'mb\n')
+END
+VER 3 000000000000001A "加速" "INV_Misc_QuestionMark"
+#showtooltip 天堂之羽
+/cast [target=player] 天堂之羽
+/stopspelltarget 
+END
+VER 3 000000000000000F "双向驱散（纯净术 驱散魔法）" "136066"
+#showtool 纯净术
+/cast  [help,nodead] 纯净术;[harm,nodead] 驱散魔法;[@player] 纯净术;
+END
+VER 3 000000000000001B "啊呀呀呀" "136184"
+Ай-ай-ай-ай-ай, что сейчас произошло!
+END
+VER 3 000000000000000D "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END
+VER 3 000000000000001C "惩击" "INV_Misc_QuestionMark"
+#showtooltip 惩击
+/startattack
+/cast 惩击
+END
+VER 3 000000000000001D "暗影魔" "136214"
+/cast 暗影魔
+/petpassive
+/petattack
+END
+VER 3 000000000000001E "歌" "INV_Misc_QuestionMark"
+#showtooltip 神圣赞美诗
+/use 维伦的未来预言
+/施放 渐隐术
+/施放 神圣赞美诗
+END
+VER 3 000000000000001F "消散" "INV_Misc_QuestionMark"
+#showtooltip 消散
+/cancelaura 消散
+/cast 消散
+END
+VER 3 0000000000000020 "消散" "INV_Misc_QuestionMark"
+#showtooltip 消散
+/stopcasting 
+/cancelAura 消散
+/cast 消散
+END
+VER 3 0000000000000021 "灭" "INV_Misc_QuestionMark"
+#showtooltip 暗言术：灭
+/cast [target=mouseover,nomodifier,exists] 暗言术：灭;暗言术：灭
+END
+VER 3 0000000000000022 "灵" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] 圣言术：灵
+END
+VER 3 0000000000000023 "爆发" "135939"
+/施放 能量灌注
+/use 直觉之赐
+END
+VER 3 0000000000000024 "爆发2" "136041"
+#Showtooltip
+/castsequence reset=combat 先祖指引
+/castsequence reset=combat 升腾
+/castsequence reset=combat 灵魂行者的恩赐
+END
+VER 3 0000000000000025 "盾渐隐" "135940"
+/cast 真言术：盾
+/cast 渐隐术
+END
+VER 3 0000000000000026 "红字" "132876"
+/script UIErrorsFrame:Hide()
+/console cameraDistanceMaxFactor 2.6
+/console floatingCombatTextCombatDamage 0
+/console floatingCombatTextCombatHealing 0
+END
+VER 3 0000000000000027 "群活" "INV_Misc_QuestionMark"
+#showtooltip 群体复活
+/use 世界缩小器
+/use 地精天气制造机 - 原型机01-B
+/施放 群体复活
+END
+VER 3 0000000000000028 "群驱" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] 群体驱散
+END
+VER 3 0000000000000011 "自动暗言术" "136207"
+#showtooltip 
+/cast [harm,nodead] 暗言术：痛
+/stopmacro [harm,nodead] 
+/cast [@mouseover,harm,nodead] 暗言术：痛
+/stopmacro [@mouseover,harm,nodead] 
+/targetenemy 
+/cast 暗言术：痛 
+/targetlasttarget
+END
+VER 3 0000000000000029 "苦修" "INV_Misc_QuestionMark"
+#showtooltip 苦修
+/cast  [harm][target=targettarget,harm]苦修
+END
+VER 3 000000000000002A "视角" "413580"
+/console cameraDistanceMaxZoomFactor 2.6
+END
+VER 3 000000000000002B "跑" "132864"
+/目标 万里谷佑理
+/施放 提神愈心
+END
+VER 3 000000000000002C "跟随" "237545"
+/目标 贰货君
+/跟随
+END
+VER 3 000000000000002D "驱散" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [help][target=mouseover,nodead,exists]纯净术;驱散魔法;
+END

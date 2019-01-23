@@ -1,0 +1,76 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["利威尔 - 伊莫塔尔"] = "利威尔 - 伊莫塔尔",
+	},
+	["profiles"] = {
+		["利威尔 - 伊莫塔尔"] = {
+			["searchHistoryList"] = {
+				"1-71-283-0", -- [1]
+				"6-0-16-0", -- [2]
+				"6-0-0-0", -- [3]
+			},
+			["version"] = "70300.08",
+			["recent"] = {
+				["6-0-16-0"] = {
+					{
+						["role"] = "DAMAGER",
+						["name"] = "长弓逐月-格瑞姆巴托",
+						["iLvl"] = 951,
+						["time"] = 1514535358,
+						["class"] = 3,
+						["leader"] = true,
+						["bTag"] = "Chaos#5413",
+					}, -- [1]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "残酷丿無情-鬼雾峰",
+						["iLvl"] = 960,
+						["time"] = 1514535358,
+						["class"] = 3,
+						["bTag"] = "贪睡之熊#510886",
+					}, -- [2]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "Lynnin-燃烧之刃",
+						["iLvl"] = 921,
+						["time"] = 1514535358,
+						["class"] = 4,
+						["bTag"] = "shuiyuee#5907",
+					}, -- [3]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "猫宁-克尔苏加德",
+						["iLvl"] = 961,
+						["time"] = 1514535207,
+						["class"] = 12,
+						["bTag"] = "云和山的彼端#52696",
+					}, -- [4]
+					{
+						["role"] = "TANK",
+						["name"] = "㸜力挽狂澜-熊猫酒仙",
+						["iLvl"] = 937,
+						["time"] = 1514534615,
+						["class"] = 6,
+						["bTag"] = "汉尼拔#51663",
+					}, -- [5]
+				},
+			},
+			["lastSearchValue"] = "1-71-283-0",
+			["chatGroupListening"] = {
+				["APP_WHISPER"] = {
+					false, -- [1]
+					false, -- [2]
+					false, -- [3]
+					false, -- [4]
+					false, -- [5]
+					false, -- [6]
+					false, -- [7]
+					false, -- [8]
+					false, -- [9]
+					false, -- [10]
+				},
+			},
+		},
+	},
+}

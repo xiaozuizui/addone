@@ -1,0 +1,72 @@
+VER 3 0100000000000009 "1" "INV_Misc_QuestionMark"
+#showtooltip 真言术：慰
+/cast [nomod,target=targettarget,harm,nodead][nomod,harm]真言术：慰
+END
+VER 3 0100000000000005 "DB_Disc-TDPS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Disc-TDPS
+END
+VER 3 0100000000000008 "DB_Disc-THeal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Disc-THeal
+END
+VER 3 0100000000000007 "DB_Disc-THealAoe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Disc-THealAoe
+END
+VER 3 0100000000000006 "DB_DiscDeeps" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_DiscDeeps
+END
+VER 3 0100000000000001 "DB_HolyPriesty" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_HolyPriesty
+END
+VER 3 0100000000000004 "DB_KTN_DiscDeeps" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_KTN_DiscDeeps
+END
+VER 3 0100000000000002 "DB_KTN_MouseOver" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_KTN_MouseOver
+END
+VER 3 0100000000000003 "DB_ShadowPriest" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_ShadowPriest
+END
+VER 3 010000000000000A "。" "134400"
+/console farclip 777 
+/console horizonfarclip 6226 
+/console groundeffectdensity 256 
+/console groundeffectdist 140 
+/console smallcull 0 
+/console skycloudlod 3 
+/console characterambient 0
+END
+VER 3 010000000000000B "压制" "135936"
+/stopcasting
+/cast 痛苦压制
+END
+VER 3 010000000000000C "惩击" "INV_Misc_QuestionMark"
+#showtooltip 惩击
+/cast [help] 惩击言; [target=targettarget, help] 惩击; [target=player] 惩击
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000D "愈合" "INV_Misc_QuestionMark"
+#showtooltip 愈合祷言
+/cast [help] 愈合祷言; [target=targettarget, help] 愈合祷言; [target=player] 愈合祷言
+/script UIErrorsFrame:Clear()
+END
+VER 3 010000000000000E "控制" "136222"
+/click ExtraActionButton1 
+END
+VER 3 010000000000000F "红字" "132876"
+/script UIErrorsFrame:Hide()
+/console cameraDistanceMaxZoomFactor 2.6
+/console floatingCombatTextCombatDamage 0
+/console floatingCombatTextCombatHealing 0
+END
+VER 3 0100000000000010 "绝望祷言" "237550"
+/stopcasting
+/cast 绝望祷言
+END
